@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./lib/css_bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Buffet DyBraga</title>
+</head>
+
+<body>
+  <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+    <div class="container">
+      <h1 class="navbar-brand m-0">Buffet DyBraga</h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item fw-bold">
+            <a class="nav-link active" href="#sobre">
+              <i class="bi bi-house-door me-1"></i>
+              Sobre o buffet</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a class="nav-link" href="#eventos">
+              <i class="bi bi-calendar me-1"></i>
+              Eventos</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a class="nav-link" href="#cardapio">
+              <i class="bi bi-card-text me-1"></i>
+              Nosso Cardápio</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a class="nav-link" href="#contato">
+              <i class="bi bi-chat-left-text me-1"></i>
+              Fale conosco</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre">
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel-buffet">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img class="w-100" src="./images/buffet_1.jpg" alt="Buffet DyBraga 1">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="w-100" src="./images/buffet_2.jpg" alt="Buffet DyBraga 2">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img class="w-100" src="./images/buffet_3.jpg" alt="Buffet DyBraga 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-buffet" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-buffet" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button class="active" type="button" data-bs-target="#carousel-buffet" data-bs-slide-to="0"></button>
+          <button type="button" data-bs-target="#carousel-buffet" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carousel-buffet" data-bs-slide-to="2"></button>
+        </div>
+      </div>
+      <div class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="d-block w-100 rounded" src="./images/buffet_4.jpg" alt="Buffet DyBraga 4">
+            </div>
+            <div class="col-md-7 mt-3 mt-md-0">
+              <h2 class="section-title">Sobre <span>o Buffet</span></h2>
+              <p>Um buffet rico e personalizado para o seu evento, com diversas opções de massas, saladas, carnes e acompanhamentos. Tudo à sua disposição e preferência. E para uma experiência mais completa ainda, podemos incluir o nosso espaço (Recanto das Pérolas) e para aqueles que gostam de degustar um bom vinho, temos também pacotes com parceria Luana Dourado - Vinhos Finos.</p>
+              <h3 class="section-title">Sobre <span>o espaço</span></h3>
+              <p>O Recanto das Pérolas é o lugar perfeito para o seu evento, com um salão de festas e uma aréa externa confortável e aconchegante para os visitantes. Contamos ainda com uma piscina e um campo para aquela comemoração em um dia ensolarado.</p>
+              <ul>
+                <li>Salão de Festas</li>
+                <li>Área externa</li>
+                <li>Piscina</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Para todas <span>as ocasiões</span></h2>
+        </div>
+        <div class="row mt-4">
+          <div class="d-grid col-md-4 justify-content-center">
+            <img class="d-block w-100 rounded mb-2" src="https://via.placeholder.com/300x300" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi-calendar-heart-fill"></i>
+              Aniversários</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum excepturi at assumenda placeat esse porro voluptates quisquam optio consequatur! Labore consequatur quia nisi aspernatur quos sapiente nihil dolor impedit velit.</p>
+          </div>
+          <div class="d-grid col-md-4 justify-content-center">
+            <img class="d-block w-100 rounded mb-2" src="https://via.placeholder.com/300x300" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi-arrow-through-heart-fill"></i>
+              Casamentos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum excepturi at assumenda placeat esse porro voluptates quisquam optio consequatur! Labore consequatur quia nisi aspernatur quos sapiente nihil dolor impedit velit.</p>
+          </div>
+          <div class="d-grid col-md-4 justify-content-center">
+            <img class="d-block w-100 rounded mb-2" src="https://via.placeholder.com/300x300" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi-people-fill"></i>
+              Confraternizações</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum excepturi at assumenda placeat esse porro voluptates quisquam optio consequatur! Labore consequatur quia nisi aspernatur quos sapiente nihil dolor impedit velit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cardapio" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center mb-4">Nosso <span>Cardápio</span></h2>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column nav-cardapio">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored active">Entradas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#prato-principal" class="fw-bold text-start nav-link text-colored">Prato Principal</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#acompanhamentos" class="fw-bold text-start nav-link text-colored">Acompanhamentos</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#saladas" class="fw-bold text-start nav-link text-colored">Saladas</button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="entradas">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Bobó de Camarão</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Banana da terra com carne seca</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Creme de bacalhau</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Escondidinho de aipim com carne seca</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Catado de siri com farofinha de dendê</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="prato-principal">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Gratinado de Bacalhau</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Salmão ao molho maracujá</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Filé mignon ao molho madeira</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Filé mignon ao molho 4 queijos</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Costelinha suína ao molho barbecue</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Escondidinho de aipim com carne seca</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="acompanhamentos">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Arroz piamontese</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Arroz com brócolis</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Farofa DyBraga</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Talharim ao molho 1</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Talharim ao molho 2</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Penne ao molho 1</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Penne ao molho 2</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="saladas">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Prato</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Prato</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Prato</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Prato</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Prato</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://via.placeholder.com/300x300" alt="">
+                    <h5 class="text-colored fw-bold mt-2">Prato</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contato" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Fale <span>conosco</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                <input required type="text" id="nome" class="form-control"> 
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                <input required type="email" id="email" class="form-control"> 
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                <input type="tel" id="telefone" class="form-control"> 
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                <textarea id="mensagem" class="form-control" required></textarea>
+              </div>
+              <button type="submit" class="btn fw-bold">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi-hand-thumbs-up-fill"></i>
+                Redes Sociais</h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <a href="#"><i class="bi bi-facebook text-colored"></i></a>
+                </li>
+                <li class="fs-5 ms-1 me-1">
+                  <a href="#"><i class="bi bi-instagram text-colored"></i></a>
+                </li>
+                <li class="fs-5">
+                  <a href="#"><i class="bi bi-whatsapp text-colored"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-4">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço</h3>
+              <p>Recanto das Pérolas, Irecê - BA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="./lib/js_bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
